@@ -48,8 +48,8 @@ const addCRUDValidation = (attrs, method) =>
   })
 
 // Connect to Mongo database
-exports.connect = (uri, collections) => {
-  db = module.exports.db = mongo(uri, collections)
+exports.connect = (uri, options, collections) => {
+  db = module.exports.db = mongo(uri, options, collections)
   return db
 }
 
