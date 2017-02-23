@@ -28,7 +28,7 @@
     "koa-graphql": "^0.5.6",
     "lodash": "^4.15.0",
     "pluralize": "^3.0.0",
-    "promised-mongo": "^1.2.0"
+    "promised-mongo": "git://github.com/tjyrkinen/promised-mongo.git#dist"
   },
   "devDependencies": {
     "express": "^4.14.0",
